@@ -1,4 +1,36 @@
 body {
-  margin: 0px;
-  background-color: white;
-  font-size: 30px; }
+  background-image: url("../img/white_wall_hash.png");
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
+  .container-narrow hr {
+    margin-top: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: white 0 1px 0;
+    -moz-box-shadow: white 0 1px 0;
+    box-shadow: white 0 1px 0; }
+
+.jumbotron {
+  margin: 60px 0px;
+  text-align: center; }
+  .jumbotron h1 {
+    font-size: 72px;
+    line-height: 1em;
+    text-shadow: -1px 1px rgba(0, 0, 0, 0.6); }
+  .jumbotron .lead {
+    text-shadow: -1px 1px rgba(0, 0, 0, 0.1); }
+  .jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px; }
+
+.marketing {
+  margin: 60px 0px; }
+  .marketing p + h4 {
+    margin-top: 28px; }
+
+.footer p {
+  text-align: center;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.1); }

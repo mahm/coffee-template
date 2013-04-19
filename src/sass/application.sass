@@ -1,4 +1,42 @@
+@import "compass"
+@import "zurui-sass"
+
 body
-  margin: 0px
-  background-color: #fff
-  font-size: 30px
+  background-image: url('../img/white_wall_hash.png')
+  padding-top: 20px
+  padding-bottom: 40px
+
+.container-narrow
+  margin: 0 auto
+  max-width: 700px
+
+  hr
+    margin-top: 32px
+    @include zurui-line-bottom(.1, 1.0)
+
+.jumbotron
+  margin: 60px 0px
+  text-align: center
+
+  h1
+    font-size: 72px
+    line-height: 1em
+    @include zurui-ts-fff(.6)
+
+  .lead
+    @include zurui-ts-fff(.1)
+
+  .btn
+    font-size: 21px
+    padding: 14px 24px
+
+.marketing
+  margin: 60px 0px
+
+  p + h4
+    margin-top: 28px
+
+.footer
+  p
+    text-align: center
+    @include zurui-ts-fff(.1)

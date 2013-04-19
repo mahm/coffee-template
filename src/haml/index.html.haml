@@ -2,10 +2,54 @@
 %html
   %head
     %title
-    %meta{:charset => 'utf-8'}
-    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'}
-    %link{:rel => 'stylesheet', :href => 'css/application.css'}
+    %meta{charset: 'utf-8'}
+    %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'}
+    %link{rel: 'stylesheet', href: 'css/application.css'}
+    %link{rel: 'stylesheet', href: 'css/bootstrap.css'}
+    %link{rel: 'stylesheet', href: 'css/bootstrap-responsive.css'}
 
+    %script{src: 'js/jquery-1.8.3.js'}
+    %script{src: 'js/bootstrap.js'}
   %body
-    %script{:src => 'js/jquery-1.8.3.js'}
+    .container-narrow
+      .masthead
+        %ul.nav.nav-pills.pull-right
+          %li.active
+            %a{href: '#'} Home
+          %li
+            %a{href: '#'} About
+          %li
+            %a{href: '#'} Contact
+        %h3.muted Project Name
+
+      .jumbotron
+        %h1 Super awesome marketing speak!
+        %p.lead
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        %a.btn.btn-large.btn-success{href: '#'}
+          Sign up today
+
+      %hr
+
+      .row-fluid.marketing
+        .span6
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+        .span6
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+          %h4 Subheading
+          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+
+      %hr
+
+      .footer
+        %p Company 2013
+
     %script{:src => 'js/application.js'}
